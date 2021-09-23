@@ -4,6 +4,13 @@ html {
   min-height: 1000px;
   font-family: "helvetica neue";
   min-width: 940px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
@@ -25,6 +32,13 @@ h1 {
   background: white;
   border-radius: 5px;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #heading {
@@ -71,24 +85,26 @@ form.item {
 }
 
 button {
-  max-width: 50px;
-  max-height: 60px;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  border-color: transparent;
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-  font-size: 40px;
-  padding-bottom: 0px;
-  border-width: 0;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-size: 200%;
+display: block;
+height: 50px;
+width: 50px;
+border-radius: 50%;
+border: 2px white solid;
+color: white;
+background-color: transparent;
+margin: 0 auto;
+line-height: 0%;
+animation: pulsate 2s infinite;
+outline: none;
+font-family: "Verdana";
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 input[type="text"] {
