@@ -1,5 +1,5 @@
 html {
-  background-color: #FF6666;
+  background-color: #ffffff;
   background-image: -webkit-linear-gradient(52deg, #FFBF00 50%, #80FFEC 50%);
   min-height: 1000px;
   font-family: 'helvetica neue';
@@ -107,3 +107,101 @@ footer {
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
+
+
+
+.button-images {
+max-width: 950px;
+margin: 75px auto;
+
+
+  
+}
+
+.button-container {
+position: relative;
+text-align: center;
+padding: 0;
+border-radius:50%; 
+overflow:hidden; 
+}
+
+
+
+.button-container A:before{  
+  content: '';
+  display: inline-block;
+  height: 48%; 
+  /* 
+  vertical-align:middle; 
+  height: 100%;*/
+  
+ 
+  }
+
+
+.button-container a {
+  transition: all 1s ease-out;
+  background: rgba(88, 88, 88, 0.7);
+   border-radius:50%; vertical-align:middle;
+  padding:5%; 
+  color: #FFFFFF;
+  position:absolute;
+  font-size: 1.125em; 
+  font-weight: 700; 
+  top: 0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:90%;
+  display:inline-block;
+  text-decoration: none;
+  text-transform:uppercase;
+}
+
+.button-container A:hover {
+  background: none;
+  border: #050404; 
+  opacity:0;
+}
+.button-container img{width:100%; height:auto; display:block}
+
+
+/*Columns*/
+.one_fourth {
+position: center;
+margin-left: 40%;
+float: left;
+min-height: 1px;
+height: auto !important;
+}
+
+.one_fourth {
+width: 20%;
+}
+
+
+.last {
+margin-right: 0 !important;
+clear: right;
+}
+
+.clearboth {
+clear: both;
+display: block;
+font-size: 0;
+height: 0;
+line-height: 0;
+width: 100%;
+}
+
+.spacer {
+height: 15px;
+}
+
+.two_third .one_fourth {
+margin-right: 6.1224%;
+width: 20.4082%;
+}
+
+
