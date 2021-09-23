@@ -49,6 +49,7 @@ h1 {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #f1f1f1;
+  overflow-wrap: break-word;
 }
 
 .item:last-child {
@@ -70,6 +71,7 @@ p {
   font-size: 20px;
   font-weight: 200;
   color: #00204a;
+  overflow-wrap: break-word;
 }
 
 form.item {
@@ -116,12 +118,12 @@ input[type="text"] {
   background: transparent;
   font-size: 20px;
   font-weight: 200;
-  width: 313px;
+  width: 300px;
 }
 
 input[type="text"]:focus {
   outline: none;
-  box-shadow: inset 0 -3px 0 0 #a683e3;
+  box-shadow: inset 0 -3px 0 0 #000000;
 }
 
 ::placeholder {
