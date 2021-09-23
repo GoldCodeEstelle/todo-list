@@ -3,7 +3,7 @@ html {
   background-image: -webkit-linear-gradient(52deg, #ffbf00 50%, #80ffec 50%);
   min-height: 1000px;
   font-family: "helvetica neue";
-  min-width: 940px;
+  max-width: 700px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
