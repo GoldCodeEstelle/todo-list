@@ -142,6 +142,7 @@ footer {
   content: "";
   display: inline-block;
   height: 50%;
+  width: auto;
   /* 
   vertical-align:middle; 
   height: 100%;*/
