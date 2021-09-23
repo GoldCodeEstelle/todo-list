@@ -67,12 +67,12 @@ p {
 
 form.item {
   text-align: center;
- 
+  margin-left: 20px;
 }
 
 button {
-  min-height: 50px;
-  width: 50px;
+
+  min-width: 50px;
   align-items: center;
   border-radius: 50%;
   border-color: transparent;
