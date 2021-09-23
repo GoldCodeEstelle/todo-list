@@ -1,9 +1,7 @@
 html {
   background-color: #ffffff;
   background-image: -webkit-linear-gradient(52deg, #ffbf00 50%, #80ffec 50%);
-  min-height: 1000px;
   font-family: "helvetica neue";
-  max-width: 700px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -11,6 +9,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 100%;
+  height: auto;
 }
 
 h1 {
@@ -129,7 +129,7 @@ footer {
 
 .button-images {
   max-width: 950px;
-  margin: 75px auto;
+  margin: 70px auto;
 }
 
 .button-container {
@@ -138,12 +138,13 @@ footer {
   padding: 0;
   border-radius: 50%;
   overflow: hidden;
+
 }
 
 .button-container A:before {
   content: "";
   display: inline-block;
-  height: 48%;
+  height: 50%;
   /* 
   vertical-align:middle; 
   height: 100%;*/
@@ -163,7 +164,7 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  width: 90%;
+  width: 100%;
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
