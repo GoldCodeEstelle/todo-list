@@ -127,10 +127,7 @@ footer {
   text-align: center;
 }
 
-.button-images {
-  max-width: 950px;
-  margin: 70px auto;
-}
+
 
 .button-container {
   position: relative;
@@ -155,7 +152,7 @@ footer {
   background: rgba(88, 88, 88, 0.7);
   border-radius: 50%;
   vertical-align: middle;
-  padding: 5%;
+  padding: 0%;
   color: #ffffff;
   position: absolute;
   font-size: 1.125em;
